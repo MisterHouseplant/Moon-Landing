@@ -130,13 +130,17 @@ h2 {
     gap: 20px;
     background-color: purple;
     max-height: 200px;
+    
    
     
 }
 
 .rounded {
-    background-color: aqua;
-    max-height: 200px;
+    
+    border-radius: 15%;
+    object-fit: cover;
+    overflow: hidden;
+    
 }
 
 
@@ -171,6 +175,9 @@ h2 {
     padding-bottom: 100px;
 }
 
+
+
+
 .container-inner {
     display: flex;
     background-color: #3882f6;
@@ -179,11 +186,12 @@ h2 {
     height:200px;
     margin:0;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
    margin-top: 100px;
    margin-bottom:100px;
    border-radius: 12px;
+   
+ 
 }
 
 
@@ -198,7 +206,8 @@ h3 {
     display: flex;
     flex-direction:column;
     padding-left:100px;
-    
+   
+   
 }
  
  
