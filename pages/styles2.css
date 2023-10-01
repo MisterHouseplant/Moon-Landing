@@ -8,11 +8,11 @@ body {
     align-items: center;
     flex-direction: column;
     margin:0;
+    background-image: url("../crescent.png");
+    background-size: cover;
+    
+  }
    
-   
-   
-
-   }
 
   .header {
     display: flex;
@@ -64,7 +64,7 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     width:100%;
-    height:250px;
+    height:50px;
     margin:0;
     align-items: center;
     flex-direction: row;
@@ -121,7 +121,36 @@ h2 {
     padding:20px;
     font-size: 36px;
     font-weight: bolder;
+    align-items: center;
+    display: flex;
+    align-items:center;
 }
+
+.moon-facts {
+    display: flex;
+    flex-direction: column;
+   list-style-type:none;
+   font-weight: bolder;
+    align-items: center;
+    gap:75px;
+}
+
+
+
+
+
+
+
+
+.box {
+    display: flex;
+    height:900px;
+    width:900px;
+    justify-content: center;
+
+
+}
+
  
 .row {
     display: flex;
@@ -148,20 +177,23 @@ h2 {
 .info {
     max-width: 200px;
     padding-bottom: 50px;
-    
-   
 }
+
+
+
 
 .quote {
     display: flex;
     background-color:#e5e7eb;
     color:#1f2937;
-    font-size: 36px;
+    font-size: 14px;
     font-style: italic;
     width:100%;
     margin:0;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 20px;
+    height: 75px;
+    justify-content: center;
    
   
 }
@@ -170,48 +202,13 @@ h2 {
     display: flex;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 75px;
-    padding-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
 
 
-.container-inner {
-    display: flex;
-    background-color: #3882f6;
-    color: #f9faf8;
-   width: 850px;
-    height:200px;
-    margin:0;
-    align-items: center;
-    justify-content: space-between;
-   margin-top: 100px;
-   margin-bottom:100px;
-   border-radius: 12px;
-   
- 
-}
-
-
-.action {
-    font-weight:bolder;
-    font-size: 18px;
-    margin: 0;
-}
-.action-left {
-    display: flex;
-    flex-direction:column;
-    padding-left:100px;
-   margin: 0;
-   
-}
- 
- 
-.action-right {
-    display: flex;
-    padding-right:100px;
-}
 
  footer {
     display: flex;
@@ -221,7 +218,7 @@ h2 {
     justify-content: center;
  }
 
-.click{
+ click{
     background-color: #3882f6;
     color:#f9faf8;
     border-radius: 12px;
